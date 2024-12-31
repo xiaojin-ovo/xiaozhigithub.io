@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <title>小智的祝福</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+
+</head>
+<body>
+  <!-- 动态粒子背景 -->
+  <div id="particles-js"></div>
+
+  <!-- 烟花画布 -->
+  <canvas id="fireworks-canvas"></canvas>
+
+  <!-- 朦胧层 -->
+  <div class="overlay"></div>
+
+  <!-- 主内容 -->
+  <div class="container">
+    <div class="content">
+      <!-- 朋友的名字，可自行修改 -->
+      <h1 class="name">小智祝大家天天开心</h1>
+      <div class="subtitle">“山鸟与鱼不同路，没有常青树，做自己的自由花”</div>
+      <p class="description">
+       去岁千般皆如愿，今年万事定称心。
+昭昭如愿 ，岁岁安澜 。
+观我旧往 ，同我仰春。
+辞暮尔尔，烟火年年。
+我与旧时归于尽，来年依旧迎花开
+      </p>
+      <!-- 新年倒计时 -->
+      <div class="countdown" id="countdown">
+        距离新年还有: <span id="days">0</span> 天 <span id="hours">0</span> 小时 <span id="minutes">0</span> 分钟 <span id="seconds">0</span> 秒
+      </div>
+    </div>
+  </div>
+
+  <!-- 新年祝福弹窗 -->
+  <div class="new-year-message" id="newYearMessage">
+    新年快乐！愿你心想事成，万事如意！
+  </div>
+
+  <!-- 动态花瓣效果 -->
+  <script src="js/script.js"></script>
+
+  <!-- 引入粒子.js库 -->
+  <script src="js/particles.min.js"></script>
+  <script src="js/particles-config.js"></script>
+</body>
+</html>
